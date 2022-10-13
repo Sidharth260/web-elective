@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>webpage</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- <nav align="right">
+        <a href="home_page.html">Home</a>
+        <a href="sign_up.html">Sign&nbsp;Up</a>
+        <a href="#">About&nbsp;Me</a>
+        <a href="#">Gallery&nbsp;Me</a>
+        <a href="#">Contact&nbsp;Me</a>
+    </nav> -->
+    <h1 align="center">Registration Form</h1>
+    <p align="center">This is a registration form for B.Tech, MCA and MBA</p>
+   
+    <hr>
+    <form action="" method="post" autocomplete="on">
+        <table align="center">
+            
+    <thead>
+        <tr>
+            <th></th>
+            <th></th>
+        </tr>
+    </thead>    
+    <tbody>
+       <tr>
+           <td><label for="name">Full Name</label></td>
+           <td><input type="text" id="name" name="name" placeholder="Enter your name"></td>
+       </tr>
+       <tr>
+        <td><label for="email">Email</label></td>
+        <td><input type="email" id="email" name="email" placeholder="Enter your mail id"></td>
+       </tr> 
+        <tr>
+            <td><label for="mobile">Mobile</label></td>
+            <td><input type="tel" id="mobile" name="mobile" placeholder="Enter your mobile number"></td>
+        </tr>
+          <tr>
+            <td><label for="gender">Gender</label></td>
+          <!-- </tr>
+       <tr> -->
+        <td><label for="male">&nbsp&nbsp&nbspMale</label></td>
+        <td><input type="radio" name="gender" id="male" required checked></td>
+        <td><label for="female">&nbsp&nbsp&nbsp&nbspFemale</label></td>
+        <td><input type="radio" name="gender" id="female" required/></td>
+       </tr>
+       <tr>
+        <td><label for="hobbies">Hobbies</label></td>
+      <!-- </tr>
+       <tr> -->
+        <td><label for="dance">&nbsp&nbsp&nbspDance</label></td>
+        <td><input type="radio" name="hobbies" id="dance" required checked></td>
+        <td><label for="singing">&nbsp&nbsp&nbsp&nbspSinging</label></td>
+        <td><input type="radio" name="hobbies" id="singing" required/></td>
+       </tr>
+       <tr>
+        <td><label for="qualify">Qualification</label></td>
+        <td>
+            <select>
+                <option id="qualify">Btech</option>
+                <option id="qualify">Mtech</option>
+                <option id="qualify">MBA</option>
+                </select>
+        </td>
+       </tr>
+       <tr>
+        <td><label for="yos">Year&nbspof&nbspStudy</label></td>
+        <td><label for="first">&nbsp1st</label></td>
+        <td><input type="radio" name="yos" id="first" checked required></td>
+        <td><label for="second">2nd</label></td>
+        <td><input type="radio" name="yos" id="second" required></td>
+        <td><label for="third">3rd</label></td>
+        <td><input type="radio" name="yos" id="third" required></td>
+        <td><label for="fourth">4th</label></td>
+        <td><input type="radio" name="yos" id="fourth" required></td>
+    </tr>
+       <tr>
+            <td><label for="addr">Address</label></td>
+            <td><textarea name="address" id="addr" cols="30" rows="10" placeholder="Enter the address"></textarea></td>
+        </tr>
+        <tr>
+            <td><label for="dob">Date Of birth</label></td>
+            <td><input type="date" name="dob" id=dob></td>
+        </tr>
+        <tr>
+            <td><label for="myfile">Select a file:(image)</label></td>
+            <td><input type="file" id="myfile" name="myfile" multiple></td>
+        </tr>
+        <tr>
+            <td><label for="favcolor">Favourite Colour</label></td>
+            <td><input type="color" name="color" id="favcolor"></td>
+        </tr>
+        <tr>
+            <td><label for="btime">My birth Time</label></td>
+            <td><input type="time" name="time" id="btime"></td>
+        </tr>
+        <tr>
+            <td><button type="submit">Submit</button></td>
+            <td><button type="reset">Reset</button></td>
+        </tr>
+       </tbody>
+    </form>
+</body>
+</html>
